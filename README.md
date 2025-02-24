@@ -1,14 +1,6 @@
-#include <stdio.h>
+def add_numbers(a, b):
+    return a + b
 
-int main() {
-    int num1, num2, sum;
-
-    printf("Enter two integers: ");
-    scanf("%d %d", &num1, &num2);
-
-    sum = num1 + num2;
-
-    printf("Sum: %d\n", sum);
-
-    return 0;
-}
+# Example usage
+result = add_numbers(2, 3)
+print(f"The sum of 2 and 3 is: {result}")
